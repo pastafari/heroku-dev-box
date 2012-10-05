@@ -18,16 +18,20 @@ goodies that come with a heroku-dev-box stack.
 Details
 ========
 
-Heroku Cedar stack comes with the following goodies:
+The [Heroku Cedar stack](https://devcenter.heroku.com/articles/cedar) comes with the following goodies:
 
 * Ubuntu 10.04
-* MRI 1.9.2
+* Ruby MRI 1.9.2
 * Node.js
+* Postgresql
 * Clojure
 * Java
 * Python
 * Scala
-* Nginx + Passenger (setup for Ruby on Rails apps only)
+
+
+**The first cut of heroku-dev-box comes with support for Ruby and Node.js.
+Hopefully we can add the rest of the stack soon.**
 
 Your dev box will be configured with all of the above. What it will
 **NOT** have is the Heroku post commit hooks which deploy your app for
